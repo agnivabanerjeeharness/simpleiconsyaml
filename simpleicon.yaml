@@ -3,10 +3,6 @@ kind: Component
 metadata:
   name: simple-icons
   description: Component with simple icon links
-spec:
-  type: website
-  owner: john@example.com
-  lifecycle: experimental
   links:
     - title: Prometheus
       url: https://google.ch
@@ -19,4 +15,9 @@ spec:
       icon: googlebigquery
     - title: 1.1.1.1
       url: https://google.ch
+spec:
+  type: website
+  owner: john@example.com
+  lifecycle: experimental
+
      
